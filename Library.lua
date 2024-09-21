@@ -645,9 +645,9 @@ do
             });
 
             TransparencyCursor = Library:Create('Frame', { 
-                BackgroundColor3 = Color3.new(1, 1, 1);
+                BackgroundColor3 = Color3.new(255, 255, 255);
                 AnchorPoint = Vector2.new(0.5, 0);
-                BorderColor3 = Color3.new(0, 0, 0);
+                BorderColor3 = Color3.new(255, 255, 255);
                 Size = UDim2.new(0, 1, 1, 0);
                 ZIndex = 21;
                 Parent = TransparencyBoxInner;
